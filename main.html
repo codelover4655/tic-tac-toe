@@ -1,1 +1,64 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title> tic tac toe by code_lover4655 </title>
+    <link rel="stylesheet" href="my tic tac toe  org.css">
+    <link rel="stylesheet" href="extra.css" >
+</head>
 
+<body>
+
+
+    <h1 id="heading" class="head"> TIC TAC TOE </h1>
+<br>
+ <div id="popup" >
+
+    
+    <input type="text" id="user1" placeholder="user1 name" >
+    <br>
+   <input type="text" id="user2" placeholder="user2 name" >
+   <br>
+   <div class="iconselect"> color of user 1<button type="button" id="red" class="button1" style="margin-left: 20px;" onclick="color_set(this.id)" >X</button>  <button type="button" class="button2" id="yellow" onclick="color_set(this.id)">O</button>
+      <button type="button" onclick="submit()">SUBMIT</button>
+ </div>
+ </div>
+
+
+
+
+ <div id="main">
+
+ <table>
+  <tr>
+      <td class="square" id="00" onclick="go(this.id)"></td>
+      <td class="square" id="01" onclick="go(this.id)" ></td>
+      <td class="square" id="02" onclick="go(this.id)"></td>
+    
+  </tr>
+  <tr>
+    <td class="square" id="10" onclick="go(this.id)"></td>
+    <td class="square" id="11" onclick="go(this.id)"></td>
+    <td class="square" id="12" onclick="go(this.id)"></td>
+  </tr>
+  <tr>
+    <td class="square" id="20" onclick="go(this.id)"></td>
+    <td class="square" id="21" onclick="go(this.id)"></td>
+    <td class="square" id="22" onclick="go(this.id)"></td>
+
+  </tr>
+
+</table>
+
+
+</div>
+
+ 
+
+
+
+</body>
+<script src="my tic tac toe org.js" ></script>
+
+
+
+</html>
